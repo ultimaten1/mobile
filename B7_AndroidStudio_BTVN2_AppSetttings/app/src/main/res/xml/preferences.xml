@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Settings"
+        android:icon="@drawable/channels4_profile" >
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="save_preference_key"
+            android:title="@string/save_color_and_count" />
+
+        <EditTextPreference
+            android:key="count_preference"
+            android:title="Set Count"
+            android:defaultValue=""
+            android:inputType="number"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:defaultValue="#FF000000"
+            android:entries="@array/color_entries"
+            android:entryValues="@array/color_values"
+            android:key="color_preference_xml"
+            android:title="Set Color"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

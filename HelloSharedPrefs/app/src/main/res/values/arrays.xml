@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="background_color_entries">
+        <item>White</item>
+        <item>Red</item>
+        <item>Green</item>
+        <!-- Add more color options as needed -->
+    </string-array>
+    <string-array name="background_color_values">
+        <item>#FFFFFF</item>
+        <item>#FF0000</item>
+        <item>#00FF00</item>
+        <!-- Corresponding color values for the options above -->
+    </string-array>
+</resources>

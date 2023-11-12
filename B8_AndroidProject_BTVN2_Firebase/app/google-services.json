@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "819569772757",
+    "project_id": "b8androidprojectbtvn2firebase",
+    "storage_bucket": "b8androidprojectbtvn2firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819569772757:android:98075ca2dc9a5c6427fa5c",
+        "android_client_info": {
+          "package_name": "com.ultimate.b8_androidproject_btvn2_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIABnbcYALHAgTY0MbCKgJ8BVf3Ve-Nik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

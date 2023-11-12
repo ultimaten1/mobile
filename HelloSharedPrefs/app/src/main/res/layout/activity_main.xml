@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="341dp"
+        android:layout_height="435dp"
+        android:layout_centerInParent="true"
+        android:background="#BDB0B0"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="64sp" />
+
+    <Button
+        android:id="@+id/black_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/count_button"
+        android:layout_marginBottom="6dp"
+        android:backgroundTint="#1C1616"
+        android:text="Black" />
+
+    <Button
+        android:id="@+id/red_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/count_button"
+        android:layout_marginBottom="6dp"
+        android:layout_toRightOf="@id/black_button"
+        android:backgroundTint="#F44336"
+        android:text="Red" />
+
+    <Button
+        android:id="@+id/blue_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/count_button"
+        android:layout_marginBottom="6dp"
+        android:layout_toRightOf="@id/red_button"
+        android:backgroundTint="#03A9F4"
+        android:text="Blue" />
+
+    <Button
+        android:id="@+id/green_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/count_button"
+        android:layout_marginBottom="6dp"
+        android:layout_toRightOf="@id/blue_button"
+        android:backgroundTint="#4CAF50"
+        android:text="Green" />
+
+    <Button
+        android:id="@+id/count_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:text="COUNT" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_Clear"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:text="Clear Data" />
+
+        <Button
+            android:id="@+id/bt_Setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+
+            android:text="Setting" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+

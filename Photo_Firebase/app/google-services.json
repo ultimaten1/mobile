@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "289282432955",
+    "project_id": "photo--firebase",
+    "storage_bucket": "photo--firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289282432955:android:39351e8a50808cc41c2e9e",
+        "android_client_info": {
+          "package_name": "com.example.photo_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkOqcXfpvFvnPpoJPSCnhKsB103DOlhxo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

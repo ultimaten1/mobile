@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FailedActivity">
+
+    <Button
+        android:id="@+id/btnStartAgainFailed"
+        android:layout_width="165dp"
+        android:layout_height="74dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="@color/custom_green"
+        android:minHeight="0dp"
+        android:paddingVertical="0dp"
+        android:text="Start Again"
+        android:textAllCaps="false"
+        android:textColor="@color/custom_green"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/txtFailed"
+        android:layout_width="218dp"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text="Sorry! You failed!"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.323" />
+</androidx.constraintlayout.widget.ConstraintLayout>
